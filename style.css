@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #question {
+    font-size: large;
+    opacity: 100%;
+    transition: opacity 0.07s ease-in;
+  }
+  
+  #answers {
+    font-weight: bold;
+  }
+  
+  #score, #timer{
+    font-size: 1.5em;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.2em;
+    border-radius: 10px;
+    border-width: 3px;
+  }
+  
+  #questionCard {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+  #launchBar{
+    margin: auto;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+    background-color: purple;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
